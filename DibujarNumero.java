@@ -1,20 +1,20 @@
 public class DibujarNumero {
 
 	private int[][] uno = {{0,0,0}, {0,0,1}, {0,0,1}};
-    private int[][] two = {{0,1,0}, {0,1,1}, {1,1,0}};
-    private int[][] three = {{0,1,0}, {0,1,1}, {0,1,1}};
-    private int[][] four = {{0,0,0}, {1,1,1}, {0,0,1}};
-    private int[][] five = {{0,1,0}, {1,1,0}, {0,1,1}};
-    private int[][] six = {{0,1,0}, {1,1,0}, {1,1,1}};
-    private int[][] seven = {{0,1,0}, {0,0,1}, {0,0,1}};
-    private int[][] eight = {{0,1,0}, {1,1,1}, {1,1,1}};
-    private int[][] nine = {{0,1,0}, {1,1,1}, {0,1,1}};
-    private int[][] zero = {{0,1,0}, {1,0,1}, {1,1,1}};
+    private int[][] dos = {{0,1,0}, {0,1,1}, {1,1,0}};
+    private int[][] tres = {{0,1,0}, {0,1,1}, {0,1,1}};
+    private int[][] cuatro = {{0,0,0}, {1,1,1}, {0,0,1}};
+    private int[][] cinco = {{0,1,0}, {1,1,0}, {0,1,1}};
+    private int[][] seis = {{0,1,0}, {1,1,0}, {1,1,1}};
+    private int[][] siete = {{0,1,0}, {0,0,1}, {0,0,1}};
+    private int[][] ocho = {{0,1,0}, {1,1,1}, {1,1,1}};
+    private int[][] nueve = {{0,1,0}, {1,1,1}, {0,1,1}};
+    private int[][] cero = {{0,1,0}, {1,0,1}, {1,1,1}};
     private String strCadena;
 
     /**
      *
-     * Metodo encargado de converir el digito de la cadena en valor del display
+     * Es el Metodo encargado de converir el digito de la cadena en valor del display
      *
      */
         public void imprimirNumero() {
@@ -23,16 +23,16 @@ public class DibujarNumero {
         	int i, j, k;
         	
         	 for(i=0; i<size; i++){
-                 if(this.strCadena.charAt(i)=='1') chars[i] = uno;
-                 else if(this.strCadena.charAt(i)=='2') chars[i] = two;
-                 else if(this.strCadena.charAt(i)=='3') chars[i] = three;
-                 else if(this.strCadena.charAt(i)=='4') chars[i] = four;
-                 else if(this.strCadena.charAt(i)=='5') chars[i] = five;
-                 else if(this.strCadena.charAt(i)=='6') chars[i] = six;
-                 else if(this.strCadena.charAt(i)=='7') chars[i] = seven;
-                 else if(this.strCadena.charAt(i)=='8') chars[i] = eight;
-                 else if(this.strCadena.charAt(i)=='9') chars[i] = nine;
-                 else if(this.strCadena.charAt(i)=='0') chars[i] = zero;
+                 if(getStrCadena().charAt(i)=='1') chars[i] = uno;
+                 else if(getStrCadena().charAt(i)=='2') chars[i] = dos;
+                 else if(getStrCadena().charAt(i)=='3') chars[i] = tres;
+                 else if(getStrCadena().charAt(i)=='4') chars[i] = cuatro;
+                 else if(getStrCadena().charAt(i)=='5') chars[i] = cinco;
+                 else if(getStrCadena().charAt(i)=='6') chars[i] = seis;
+                 else if(getStrCadena().charAt(i)=='7') chars[i] = siete;
+                 else if(getStrCadena().charAt(i)=='8') chars[i] = ocho;
+                 else if(getStrCadena().charAt(i)=='9') chars[i] = nueve;
+                 else if(getStrCadena().charAt(i)=='0') chars[i] = cero;
                  else {
                 	 throw new IllegalArgumentException("Cadena " + this.strCadena
                              + " no es un entero");
