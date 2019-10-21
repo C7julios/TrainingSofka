@@ -1,6 +1,5 @@
 public class DibujarNumero {
 
-<<<<<<< HEAD
 	private int[][] uno = {{0,0,0}, {0,0,1}, {0,0,1}};
     private int[][] dos = {{0,1,0}, {0,1,1}, {1,1,0}};
     private int[][] tres = {{0,1,0}, {0,1,1}, {0,1,1}};
