@@ -1,6 +1,6 @@
 public class DibujarNumero {
 
-	private int[][] uno = {{0,0,0}, {0,0,1}, {0,0,1}};
+    private int[][] uno = {{0,0,0}, {0,0,1}, {0,0,1}};
     private int[][] two = {{0,1,0}, {0,1,1}, {1,1,0}};
     private int[][] three = {{0,1,0}, {0,1,1}, {0,1,1}};
     private int[][] four = {{0,0,0}, {1,1,1}, {0,0,1}};
