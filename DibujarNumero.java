@@ -11,6 +11,7 @@ public class DibujarNumero {
     private int[][] nueve = {{0,1,0}, {1,1,1}, {0,1,1}};
     private int[][] cero = {{0,1,0}, {1,0,1}, {1,1,1}};
     private String strCadena;
+    private String prueba;
 
     /**
      *
